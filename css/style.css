@@ -1,0 +1,32 @@
+/* Created by: Marcus Wehbi
+* Created on: May 2022
+* This CSS file defines the style for index.html
+* ICS2O-Unit5-01-HTML-EvenNumberDisplay
+*/
+
+body {
+	background-color: rgb(218, 216, 243);
+}
+
+h1 {
+	background-color: rgb(211, 244, 184);
+	color: hsl(55, 100%, 20%);
+	padding: 40px;
+	text-align: center;
+}
+
+p {
+	background-color: #f48686;
+}
+
+div {
+	
+  font-weight: bold;
+  color: #050505;
+  margin: 5px;
+}
+
+#display-results{
+  background-color: #449c5a;
+	font-size: 20px;
+}

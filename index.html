@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <!-- Metadata -->
+      <meta charset="utf-8">
+      <meta name="description" content="While Loops, with JavaScript">
+      <meta name="keywords" content="immaculata, ics2o">
+      <meta name="author" content="Marcus Wehbi">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Link for favicon -->
+      <link rel="icon" href="./fav_index/favicon.ico">
+      <link rel="manifest" href="./fav_index/site.webmanifest">
+      <!-- Link for stylesheet -->
+      <link rel="stylesheet" href="./css/style.css">
+      <!-- Webpage title -->
+      <title>Even Number Display</title>
+   </head>
+   <body>
+      <!-- Link for javascript file -->
+      <script src="./js/script.js"></script>
+      <center>
+         <!-- Large header -->
+         <h1>Displaying Even Numbers</h1>
+         <!-- Table to format page (form, image, etc.) -->
+         <table>
+            <tr align = "center">
+               <td valign="top" align="left">
+                  <h3>
+                  This program will tell the user the amount of even numbers there are between a minimum and maximum.
+                  <h3>
+                  <!-- Form to retrieve information (Users min and max of choice) -->
+                  <form action="javascript:displayCost()">						
+                     <label for="min">Minimum #:</label>
+                     <input type="number" step="1" id="min"><br><br>
+                     <label for="max">Maximum #:</label>
+                     <input type="number" step="1" id="max"><br><br>
+                     <br><br>
+                     <input type="submit" value="Display Even #'s">
+                  </form>
+               </td>
+               <td valign="top" align="left">
+                  <img src="./images/mm.jpeg" alt="Museum" width="50%">
+               </td>
+            </tr>
+         </table>
+         <!-- Create a space where the user information will be displayed -->
+         <div id="display-results">
+         </div>
+      </center>
+   </body>
+</html>
